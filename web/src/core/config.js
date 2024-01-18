@@ -3,8 +3,8 @@
  */
 
 const config = {
-  appName: 'Gin-Vue-Admin',
-  appLogo: 'https://www.gin-vue-admin.com/img/logo.png',
+  appName: 'shnlly-admin',
+  appLogo: 'http://s7gh8x0zm.hd-bkt.clouddn.com/avatar-default.png?e=1705666826&token=OCHvv99yE5s6JAQPV8rENRk0mQvDbPz05bBJh2vz:tcBeZ-AxBQpl3JNg51bGOOBwbH0=',
   showViteLogo: true
 }
 
@@ -13,12 +13,12 @@ export const viteLogo = (env) => {
     const chalk = require('chalk')
     console.log(
       chalk.green(
-        `> 欢迎使用Gin-Vue-Admin，开源地址：https://github.com/flipped-aurora/gin-vue-admin`
+        `> shnlly-admin 基于 gva 开发，gva-开源地址：https://github.com/flipped-aurora/gin-vue-admin`
       )
     )
     console.log(
       chalk.green(
-        `> 当前版本:v2.5.7`
+        `> 当前版本:v0.1.1`
       )
     )
     console.log(
